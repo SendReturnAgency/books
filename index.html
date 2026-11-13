@@ -21,6 +21,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #F0642A;outline-offset:3p
 @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
 html{scroll-behavior:smooth}
 .lang{display:flex;gap:2px;align-items:center;margin-left:8px}.lang a{padding:10px 8px;text-decoration:none;font-weight:500;color:#5A6067}.lang a[aria-current]{color:#15171A;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.swap:not([hidden]){display:contents}
 </style>
 <link rel="alternate" hreflang="de" href="https://ralphwirth.com/">
 <link rel="alternate" hreflang="en" href="https://ralphwirth.com/en/index.html">
@@ -45,7 +46,7 @@ html{scroll-behavior:smooth}
 <h1 style="margin: 0; max-width: 900px; font-family: 'Archivo', 'Helvetica Neue', sans-serif; font-weight: 900; font-size: clamp(2.6rem, 6vw, 5rem); line-height: 1.02; letter-spacing: -0.02em">Was die Digitalisierung mit uns macht und was sie uns nicht nehmen kann.</h1>
 <p style="margin: 0; max-width: 680px; font-size: 21px; color: #3A3F45">Ein Buch darüber, warum echte Begegnungen im KI-Zeitalter an Wert gewinnen. Eines über die Frage, wie viel wir an KI-Agenten abgeben wollen. Und eines darüber, was wir verlernen, wenn uns die alltäglichen Begegnungen fehlen.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px">
-<a href="#analoges-comeback" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">Zum neuen Buch «Analoges Comeback»</a>
+<span class="swap" data-soon="dosis"><a href="#analoges-comeback" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">Zum neuen Buch «Analoges Comeback»</a></span><span class="swap" data-out="dosis" hidden><a href="#die-dosis" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">Zum neuen Buch «Die Dosis»</a></span>
 <a href="#kontakt" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #15171A; color: #15171A; text-decoration: none; font-weight: 600">Bei neuen Büchern benachrichtigen</a>
 </div>
 </section>
@@ -175,6 +176,7 @@ html{scroll-behavior:smooth}
 <div style="display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px">
 <span class="rel" data-out="dosis" hidden><a target="_blank" rel="noopener noreferrer" href="https://sendreturn.gumroad.com/l/diedosis" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #4CBF8C; color: #15171A; text-decoration: none; font-weight: 600">Gratis-PDF herunterladen</a></span><span class="rel" data-soon="dosis"><span aria-disabled="true" title="Erhältlich ab Erscheinungsdatum" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #3A3F45; color: #8A8F95; text-decoration: none; font-weight: 600; cursor: not-allowed">Gratis-PDF herunterladen</span></span>
 <span class="rel" data-soon="dosis"><a href="#kontakt" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #F3F4F1; color: #F3F4F1; text-decoration: none; font-weight: 600">Benachrichtigen bei Erscheinen</a></span>
+<a target="_blank" rel="noopener noreferrer" href="https://www.amazon.de/dp/B0GYTVQ29C" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #F3F4F1; color: #F3F4F1; text-decoration: none; font-weight: 600">Bei Amazon kaufen</a>
 </div>
 <p style="margin: 0; font-size: 15px; color: #C9CCD1">Limitiert auf 30 Gratis-Exemplare. Download gegen E-Mail-Adresse.</p>
 </div>
