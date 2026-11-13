@@ -21,6 +21,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #F0642A;outline-offset:3p
 @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
 html{scroll-behavior:smooth}
 .lang{display:flex;gap:2px;align-items:center;margin-left:8px}.lang a{padding:10px 8px;text-decoration:none;font-weight:500;color:#5A6067}.lang a[aria-current]{color:#15171A;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.swap:not([hidden]){display:contents}
 </style>
 <link rel="alternate" hreflang="de" href="https://ralphwirth.com/">
 <link rel="alternate" hreflang="en" href="https://ralphwirth.com/en/index.html">
@@ -45,7 +46,7 @@ html{scroll-behavior:smooth}
 <h1 style="margin: 0; max-width: 900px; font-family: 'Archivo', 'Helvetica Neue', sans-serif; font-weight: 900; font-size: clamp(2.6rem, 6vw, 5rem); line-height: 1.02; letter-spacing: -0.02em">What digitalization is doing to us, and what it can’t take away.</h1>
 <p style="margin: 0; max-width: 680px; font-size: 21px; color: #3A3F45">One book on why real encounters gain value in the age of AI. One on how much we want to hand over to AI agents. And one on what we unlearn when everyday encounters disappear. All three books are currently available in German only.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px">
-<a href="#analoges-comeback" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">To the new book “The Return of the Analog”</a>
+<span class="swap" data-soon="dosis"><a href="#analoges-comeback" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">To the new book “The Return of the Analog”</a></span><span class="swap" data-out="dosis" hidden><a href="#die-dosis" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #15171A; color: #F3F4F1; text-decoration: none; font-weight: 600">To the new book “The Dose”</a></span>
 <a href="#kontakt" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #15171A; color: #15171A; text-decoration: none; font-weight: 600">Get notified about new books</a>
 </div>
 </section>
@@ -177,6 +178,7 @@ html{scroll-behavior:smooth}
 <div style="display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px">
 <span class="rel" data-out="dosis" hidden><a target="_blank" rel="noopener noreferrer" href="https://sendreturn.gumroad.com/l/diedosis" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #4CBF8C; color: #15171A; text-decoration: none; font-weight: 600">Download free PDF</a></span><span class="rel" data-soon="dosis"><span aria-disabled="true" title="Available from the release date" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; background: #3A3F45; color: #8A8F95; text-decoration: none; font-weight: 600; cursor: not-allowed">Download free PDF</span></span>
 <span class="rel" data-soon="dosis"><a href="#kontakt" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #F3F4F1; color: #F3F4F1; text-decoration: none; font-weight: 600">Notify me on release</a></span>
+<a target="_blank" rel="noopener noreferrer" href="https://www.amazon.de/dp/B0GYTVQ29C" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 2px solid #F3F4F1; color: #F3F4F1; text-decoration: none; font-weight: 600">Buy on Amazon</a>
 </div>
 <p style="margin: 0; font-size: 15px; color: #C9CCD1">Limited to 30 free copies. Download in exchange for your email address.</p>
 </div>
